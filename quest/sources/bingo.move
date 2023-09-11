@@ -23,23 +23,23 @@ module overmind::bingo_core {
     // ERRORS //
     ////////////
 
-    const SIGNER_NOT_ADMIN: u64 = 0;
-    const INVALID_START_TIMESTAMP: u64 = 1;
-    const BINGO_NOT_INITIALIZED: u64 = 2;
-    const GAME_NAME_TAKEN: u64 = 3;
-    const INVALID_NUMBER: u64 = 4;
-    const GAME_DOES_NOT_EXIST: u64 = 5;
-    const GAME_NOT_STARTED_YET: u64 = 6;
-    const NUMBER_DUPLICATED: u64 = 7;
-    const INVALID_AMOUNT_OF_COLUMNS_IN_PICKED_NUMBERS: u64 = 8;
-    const INVALID_AMOUNT_OF_NUMBERS_IN_COLUMN: u64 = 9;
-    const COLUMN_HAS_INVALID_NUMBER: u64 = 10;
-    const GAME_ALREADY_STARTED: u64 = 11;
-    const INSUFFICIENT_FUNDS: u64 = 12;
-    const PLAYER_ALREADY_JOINED: u64 = 13;
-    const GAME_HAS_ENDED: u64 = 14;
-    const PLAYER_NOT_JOINED: u64 = 15;
-    const PLAYER_HAVE_NOT_WON: u64 = 16;
+    const ERROR_SIGNER_NOT_ADMIN: u64 = 0;
+    const ERROR_INVALID_START_TIMESTAMP: u64 = 1;
+    const ERROR_BINGO_NOT_INITIALIZED: u64 = 2;
+    const ERROR_GAME_NAME_TAKEN: u64 = 3;
+    const ERROR_INVALID_NUMBER: u64 = 4;
+    const ERROR_GAME_DOES_NOT_EXIST: u64 = 5;
+    const ERROR_GAME_NOT_STARTED_YET: u64 = 6;
+    const ERROR_NUMBER_DUPLICATED: u64 = 7;
+    const ERROR_INVALID_AMOUNT_OF_COLUMNS_IN_PICKED_NUMBERS: u64 = 8;
+    const ERROR_INVALID_AMOUNT_OF_NUMBERS_IN_COLUMN: u64 = 9;
+    const ERROR_COLUMN_HAS_INVALID_NUMBER: u64 = 10;
+    const ERROR_GAME_ALREADY_STARTED: u64 = 11;
+    const ERROR_INSUFFICIENT_FUNDS: u64 = 12;
+    const ERROR_PLAYER_ALREADY_JOINED: u64 = 13;
+    const ERROR_GAME_HAS_ENDED: u64 = 14;
+    const ERROR_PLAYER_NOT_JOINED: u64 = 15;
+    const ERROR_PLAYER_HAVE_NOT_WON: u64 = 16;
 
     // Static seed
     const BINGO_SEED: vector<u8> = b"BINGO";
